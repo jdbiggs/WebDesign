@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Established_User_Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/font.css"/>
+	<link rel="stylesheet" href="css/btn.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<!--<a href="#" class="nav-btn"></a>-->
+		<button type="button" class="nav-btn">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="nav-btnIcon"></span>
+			<span class="nav-btnIcon"></span>
+			<span class="nav-btnIcon"></span>
+		</button>
+	
+		<a href="" class="logo">
+			<img src="images/logo.png" alt="" class="logoPic">
+		</a>
+	</header>
+
+	<div class="info">
+		<div class="info-account">Your Freemit Account</div>
+		<a href="#" class="add-funds-btn"><span class="icon-plus"></span>Add Funds</a>
+		<span class="balance">$100.00</span>
+		<a href="#" class="def-btn def-btn_l">Make a Request</a>
+		<a href="#" class="def-btn def-btn_r">Make a Payment</a>
+	</div>
+
+	<div class="title-box">
+		<a href="#" class="add-friend-btn"  data-toggle="modal" data-target="#modalAddFriends">
+			<span class="icon-plus"></span>
+			Add Friends
+		</a>
+		<h2 class="h2">Recent</h2>
+	</div>
+
+	<a href="chat.html" class="chat-box newBg">
+        <span class="user user_l">
+            <span class="user__photo">
+                <img src="images/cont/user5.jpg" alt="" class="user__photo-img">
+            </span>
+            <span class="user__name">Mom</span>
+        </span>
+        <span class="chat-box__inner">
+            <span class="msg msg_l msg_new">
+	            <span class="count_msg">1</span>
+                <span>
+	               Hey Kiddo <br/>
+					Dad says you’re broke ...
+                </span>
+                <span class="msg__time">17:22</span>
+            </span>
+        </span>
+	</a>
+
+	<div class="chat-box">
+		<div class="user user_l">
+			<div class="user__photo">
+				<img src="images/cont/user6.jpg" alt="" class="user__photo-img">
+			</div>
+			<span class="user__name">John Biggs</span>
+		</div>
+		<div class="user user_r">
+			<div class="user__photo">
+				<img src="images/cont/user7.jpg" alt="" class="user__photo-img">
+			</div>
+			<span class="user__name">Danie Brawand</span>
+		</div>
+		<div class="pay pay-commented">
+			<span class="pay__cur">118 EUR</span>
+			<div class="pay__arrow pay__arrow_l">$124.23</div>
+			<p class="pay__msg">“Euro for Drinks last night”</p>
+		</div>
+	</div>
+
+	<div class="chat-box">
+		<div class="user user_l">
+			<div class="user__photo">
+				<img src="images/cont/user4.jpg" alt="" class="user__photo-img">
+			</div>
+			<span class="user__name">Richard Svinkin</span>
+		</div>
+		<div class="user user_r">
+			<div class="user__photo">
+				<img src="images/cont/user7.jpg" alt="" class="user__photo-img">
+			</div>
+			<span class="user__name">Danie Brawand</span>
+		</div>
+		<div class="pay pay-commented">
+			<span class="pay__cur">118 EUR</span>
+			<div class="pay__arrow pay__arrow_r">$124.23</div>
+			<p class="pay__msg">“Euro for Drinks last night”</p>
+		</div>
+	</div>
+
+	<div class="chat-box">
+		<div class="user user_l">
+			<div class="user__photo">
+				<img src="images/cont/user9.jpg" alt="" class="user__photo-img">
+			</div>
+			<span class="user__name">Paul Goudas</span>
+		</div>
+		<div class="chat-box__inner">
+			<div class="msg msg_l">
+				<p>
+					Hey are you coming out tonight?...
+				</p>
+				<span class="msg__time">15:34</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="chat-box">
+		<div class="user user_l">
+			<div class="user__photo user__photo_empty"></div>
+			<span class="user__name">Name</span>
+		</div>
+		<div class="user user_r">
+			<div class="user__photo user__photo_empty"></div>
+			<span class="user__name">Name</span>
+		</div>
+		<div class="pay pay-commented">
+			<span class="pay__cur">118 EUR</span>
+			<div class="pay__arrow pay__arrow_red pay__arrow_r">$124.23</div>
+			<p class="pay__msg">Comment</p>
+		</div>
+	</div>
+
+	<div class="chat-box">
+		<div class="user user_l">
+			<div class="user__photo user__photo_empty"></div>
+			<span class="user__name">Name</span>
+		</div>
+		<div class="user user_r">
+			<div class="user__photo user__photo_empty"></div>
+			<span class="user__name">Name</span>
+		</div>
+		<div class="pay pay-commented">
+			<span class="pay__cur">118 EUR</span>
+			<div class="pay__arrow pay__arrow_yellow pay__arrow_r">$124.23</div>
+			<p class="pay__msg">Comment</p>
+		</div>
+	</div>
+
+</div>
+<div class="modal fade modalFriend" id="modalAddFriends">
+	<div class="modal-dialogIn">
+		<div class="modal-dialogCentred">
+			<div class="modal-dialogWidth">
+				<div class="modal__header clearfix">
+					<div class="modal__title">Add Friends</div>
+					<div class="modal__hint">Type in your friend’s Email</div>
+				</div>
+				<div class="modal__body">
+					<div class="modal__row">
+						<input type="email" class="def-field " placeholder="Friend’s Email here"/>
+					</div>
+				</div>
+				<div class="modal__footer clearfix">
+					<a href="" class="modal__cancelBtn" data-dismiss="modal">Cancel</a>
+					<a href="" class="modal__confirmBtn" >Invite</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,348 @@
+/* gradient */
+/* opacity */
+/* box shadow */
+/* text shadow */
+/* box sizing */
+/* border radius */
+/* column */
+input {
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: normal;
+}
+input,
+textarea,
+button {
+  font-family: 'Avenir', sans-serif;
+}
+textarea.autosize {
+  line-height: 20px;
+  min-height: 47px;
+  padding: 12px 3px;
+  max-height: 155px;
+  overflow: auto!important;
+}
+.add-funds-btn {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  background: #50b199;
+  background-size: 100px auto;
+  position: absolute;
+  top: 17px;
+  right: 5%;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0 9px;
+  border-radius: 3px;
+}
+.add-funds-btn .icon-plus {
+  display: inline-block;
+  content: '';
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  background: url("../images/icon-plus.png") 0 0 no-repeat;
+  -webkit-background-size: 7px 7px;
+  background-size: 7px 7px;
+}
+.add-friend-btn {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  position: absolute;
+  top: 8px;
+  right: 5%;
+  background: #89a8a9;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0 9px;
+  border-radius: 3px;
+  -webkit-transition: background .2s ease;
+  transition: background .2s ease;
+}
+.add-friend-btn .icon-plus {
+  display: inline-block;
+  content: '';
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  background: url("../images/icon-plus.png") 0 0 no-repeat;
+  -webkit-background-size: 7px 7px;
+  background-size: 7px 7px;
+}
+.add-friend-btn:active {
+  background: #62a0a2;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 62, 63, 0.53);
+  -moz-box-shadow: inset 1px 1px 1px rgba(0, 62, 63, 0.53);
+  box-shadow: inset 1px 1px 1px rgba(0, 62, 63, 0.53);
+}
+.def-btn {
+  display: inline-block;
+  width: 49%;
+  height: 38px;
+  font: 700 11px/38px 'Avenir', sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #20abae;
+  text-transform: uppercase;
+}
+.def-btn_l {
+  float: left;
+}
+.def-btn_r {
+  float: right;
+}
+.def-btn_fsl {
+  font-size: 13px;
+}
+.back-btn {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 44px;
+  height: 44px;
+  margin-left: -17px;
+}
+.back-btn:before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 14px;
+  position: absolute;
+  left: 17px;
+  top: 50%;
+  margin-top: -7px;
+  background: url("../images/icons.png") -87px 0 no-repeat;
+  background-size: 100px auto;
+}
+.back-btn__photo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  margin-top: -16px;
+}
+.photo-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.photo-btn:before {
+  content: '';
+  display: block;
+  width: 23px;
+  height: 18px;
+  background: url("../images/icons.png") -63px -13px no-repeat;
+  background-size: 100px auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.msg-input,
+.pay-input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding: 0 12px;
+  font: 15px 'Avenir', sans-serif;
+}
+.pay-input {
+  display: inline-block;
+  text-align: right;
+  padding: 0;
+}
+.pay-input-placeholder {
+  position: absolute;
+  right: 92px;
+  top: 50%;
+  margin-top: -7px;
+  color: #878787;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.pay-inputBox {
+  display: none;
+  padding: 0 80px 0 35px;
+  height: 50px;
+}
+.pay-input-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.pay-input-btn:before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url("../images/icons.png") -50px -37px no-repeat;
+  background-size: 100px auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.msg-btn {
+  display: none;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: transparent;
+}
+.msg-btn:before {
+  content: '';
+  display: block;
+  width: 21px;
+  height: 18px;
+  background: url("../images/icons.png") -75px -37px no-repeat;
+  background-size: 100px auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.pay-btn,
+.request-btn {
+  display: none;
+  height: 19px;
+  padding: 0 7px;
+  background-color: #20abae;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 19px;
+  position: absolute;
+  top: 15px;
+  z-index: 1;
+  width: 60px;
+  text-align: center;
+}
+.pay-btn {
+  right: 17px;
+}
+.request-btn {
+  left: 17px;
+}
+.find-friend-bt {
+  display: block;
+  margin: auto;
+  width: 137px;
+  height: 38px;
+  line-height: 38px;
+  background: #89a8a9;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cancelBtn {
+  display: block;
+  margin: auto;
+  color: #7e7f7f;
+  background: #fff;
+  font-size: 13px;
+  height: 48px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 48px;
+  width: 50%;
+  border: 1px solid #e2e2e2;
+}
+.cancelBtn.fl_l {
+  float: left;
+}
+.confirmBtn {
+  color: #fff;
+  background: #29acaa;
+  font-size: 13px;
+  height: 48px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 48px;
+  float: left;
+  width: 50%;
+}
+.def-field {
+  display: block;
+  border-bottom: 1px solid #e2e2e2;
+  height: 47px;
+  background: transparent;
+  font-size: 15px;
+  width: 100%;
+  color: #2a3231;
+  text-decoration: none;
+  padding-left: 3px;
+  text-align: center;
+}
+.def-field::-webkit-input-placeholder {
+  color: #cecece;
+  font-size: inherit;
+}
+.def-field::-moz-placeholder {
+  color: #cecece;
+  font-size: inherit;
+}
+.def-field:-moz-placeholder {
+  color: #cecece;
+  font-size: inherit;
+}
+.def-field:-ms-input-placeholder {
+  color: #cecece;
+  font-size: inherit;
+}
+.def-field:focus {
+  border-bottom-color: #29acaa;
+}
+.one_btn {
+  margin: 0 auto 15px;
+  min-width: 140px;
+  padding: 0 5px;
+}
+.green__btn {
+  display: block;
+  font-size: 11px;
+  color: #fff;
+  height: 38px;
+  background: #20abae;
+  min-width: 140px;
+  margin: 30px auto 27px;
+  font-weight: 500;
+  padding: 0 5px;
+  text-transform: uppercase;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.green__btn:active {
+  background: #1e9e9c;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 62, 63, 0.53);
+  -moz-box-shadow: inset 1px 1px 1px rgba(0, 62, 63, 0.53);
+  box-shadow: inset 1px 1px 1px rgba(0, 62, 63, 0.53);
+}
