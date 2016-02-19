@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'icomoon';
+	src:    url('../fonts/iconmoon/icomoon.eot?e0cj0v');
+	src:    url('../fonts/iconmoon/icomoon.eot?e0cj0v#iefix') format('embedded-opentype'),
+	url('../fonts/iconmoon/icomoon.ttf?e0cj0v') format('truetype'),
+	url('../fonts/iconmoon/icomoon.woff?e0cj0v') format('woff'),
+	url('../fonts/iconmoon/icomoon.svg?e0cj0v#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-account_settings:before {
+	content: "\e906";
+}
+.icon-contacts:before {
+	content: "\e907";
+}
+.icon-log_off:before {
+	content: "\e908";
+}
+.icon-make_deposit:before {
+	content: "\e909";
+}
+.icon-make_request:before {
+	content: "\e90a";
+}
+.icon-messages:before {
+	content: "\e90b";
+}
+.icon-my_transactions:before {
+	content: "\e90c";
+}
+.icon-requests:before {
+	content: "\e90d";
+}
+.icon-send_payment:before {
+	content: "\e90e";
+}
+.icon-transactions:before {
+	content: "\e90f";
+}
+.icon-close:before {
+	content: "\e905";
+}
+.icon-arrow:before {
+	content: "\e904";
+}
+.icon-search:before {
+	content: "\e901";
+}
+.icon-check:before {
+	content: "\e902";
+}
+.icon-arrow-left:before {
+	content: "\e903";
+}
+.icon-freem_ic:before {
+	content: "\e900";
+}

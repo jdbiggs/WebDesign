@@ -157,6 +157,14 @@ sub {
 .w48p + .w48p {
   margin: 0 0 0 2%;
 }
+.w42p {
+  float: left;
+  width: 42%;
+  margin-right: 8%;
+}
+.w42p + .w42p {
+  margin: 0 0 0 8%;
+}
 .row-12 {
   height: 100%;
 }

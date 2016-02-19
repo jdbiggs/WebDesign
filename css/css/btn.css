@@ -320,6 +320,37 @@ textarea.autosize {
 .def-field:focus {
   border-bottom-color: #29acaa;
 }
+.def-field-pay {
+  line-height: 47px;
+  color: #222325;
+  font-weight: 500;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.def-field-pay::-webkit-input-placeholder {
+  color: #dedede;
+  font-size: 11px;
+  font-weight: 400;
+}
+.def-field-pay::-moz-placeholder {
+  color: #dedede;
+  font-size: 11px;
+  font-weight: 400;
+}
+.def-field-pay:-moz-placeholder {
+  color: #dedede;
+  font-size: 11px;
+  font-weight: 400;
+}
+.def-field-pay:-ms-input-placeholder {
+  color: #dedede;
+  font-size: 11px;
+  font-weight: 400;
+}
 .one_btn {
   margin: 0 auto 15px;
   min-width: 140px;
