@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Enter</title>
+	<title>LF01</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -25,30 +25,35 @@
 	<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<div class="wrapper wrapper-enter wrapper-enter30">
-	<div class="enter__logoBox">
-		<a href="" class="enter__logo"></a>
+<div class="wrapper wrapper-enter wrapper__main">
+	<div class="enter__titleBox">
+		<a href="" class="enter__logo enter__logo-sm"></a>
+		<div class="enter__title">Let’s Get Started...</div>
 	</div>
 	<div class="enter__form">
 		<form action="">
+			<div class="enter__row">
+				<span class="icon-arrow enter__arrow"></span>
+				<a href="" class="enter__field">Country of residence</a>
+			</div>
 			<div class="enter__row">
 				<input type="email" class="enter__field" placeholder="Email"/>
 			</div>
 			<div class="enter__row">
 				<input type="password" class="enter__field" placeholder="Password"/>
 			</div>
-			<div class="enter__sbmRow">
-				<button onclick="window.location.href='establishedUserHome.html'; return false;" class="enter__darkBtn enter__sbm">Log In</button>
+			<div class="enter__row">
+				<input type="password" class="enter__field" placeholder="Re-enter password"/>
 			</div>
-			<div class="enter__help">or</div>
-			<div class="enter__signUpRow">
-				<button onclick="window.location.href='LF01.html'; return false;" class="enter__signUp enter__transp">Sign Up</button>
-			</div>
+
 		</form>
 	</div>
 </div>
-<div class="enter__footer">
-	<div class="enter__slogan">Money well travelled. 2016</div>
-</div>
+<footer class="footerFixed">
+	<div class="enter__btnFunctions clearfix">
+		<button class="enter__cancelBtn" onclick="window.location.href='useCaseLoginFlow.html'; return false;">Cancel</button>
+		<button class="enter__okBtn" onclick="window.location.href='LF02.html'; return false;">Continue</button>
+	</div>
+</footer>
 </body>
 </html>

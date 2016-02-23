@@ -53,10 +53,13 @@ body {
 }
 .wrapper-enter:after {
   content: " ";
-  height: 30px;
+  height: 80px;
   width: 100%;
   display: block;
   position: relative;
+}
+.wrapper-enter.wrapper-enter30:after {
+  height: 30px;
 }
 .wrapper_pseudo_145 {
   min-height: 100%;
@@ -933,7 +936,7 @@ a {
   font-weight: 700;
   margin: 5px auto 6px;
   text-align: center;
-  max-width: 72%;
+  max-width: 74%;
 }
 .modal__title_ex {
   width: 50%;
@@ -1026,6 +1029,14 @@ a {
 }
 .modal__mb25 {
   margin-bottom: 25px;
+}
+.modal__saving {
+  color: #2eada8;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  margin: 4px auto 15px;
+  font-weight: 700;
 }
 .fade {
   opacity: 0;
@@ -1190,6 +1201,9 @@ a {
 .modalPay .gray_line {
   margin: 3px auto 13px;
 }
+.modalPay-confirm .modal__body {
+  padding-top: 2px;
+}
 .modal__sendTradeRequest .modal__body {
   padding: 0;
 }
@@ -1316,7 +1330,7 @@ a {
   margin: 36px 0 17px;
 }
 .enter__signUpRow {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .enter__transp {
   background: transparent;
